@@ -1,0 +1,52 @@
+*  {
+    margin: 0;
+    padding: 0 ;
+   box-sizing: border-box;
+}
+
+body{
+  font-size: 14px;
+    width: 1550px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(244, 244, 233);
+  }
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-auto-rows: minmax(50px, auto);
+    list-style: none;
+    margin-left: 120px;
+    padding: 40px;
+  }
+
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  padding: 60px;
+  color: brown;
+
+
+}
+
+img:hover {
+  transform: scale( 1 , 1);
+}
+
+img:hover {
+  transform: scale( 1.4 , 1.4);
+}
+
+.total-price{
+  font-size: 20px;
+  color: brown; 
+}
+
+
+.product-item{
+font-size: 20px;
+display: block;
+color: rgb(234, 112, 112);
+
+}
